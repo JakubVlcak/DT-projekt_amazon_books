@@ -1,0 +1,73 @@
+{
+    "collection": "books",
+    "documents": [
+        {
+            "_id": 1,
+            "name": "Thriller Novel",
+            "year_published": 2000,
+            "ISBN": "1234567890",
+            "pageCount": 300,
+            "format": "Hardcover",
+            "edition": "1st",
+            "publication_date": "2000-05-15",
+            "weight": 1.2,
+            "genre": {"genre_name": "Thriller"},
+            "publisher": {"publisherName": "Thriller Publishers"},
+            "language": {"language_name": "English"},
+            "bookEvent": {"event_name": "Book Launch", "event_date": "2000-05-20"},
+            "series": {"series_name": "Thriller Series"},
+            "authors": [1]
+        },
+        {
+            "_id": 2,
+            "name": "Mystery Novel",
+            "year_published": 2005,
+            "ISBN": "0987654321",
+            "pageCount": 250,
+            "format": "Paperback",
+            "edition": "2nd",
+            "publication_date": "2005-06-10",
+            "weight": 0.8,
+            "genre": {"genre_name": "Mystery"},
+            "publisher": {"publisherName": "Mystery Publishers"},
+            "language": {"language_name": "English"},
+            "bookEvent": {"event_name": "Book Signing", "event_date": "2005-06-15"},
+            "series": {"series_name": "Mystery Series"},
+            "authors": [1, 3]
+        },
+        {
+            "_id": 3,
+            "name": "Fantasy Novel",
+            "year_published": 2010,
+            "ISBN": "1122334455",
+            "pageCount": 400,
+            "format": "Ebook",
+            "edition": "1st",
+            "publication_date": "2010-07-01",
+            "weight": 0.5,
+            "genre": {"genre_name": "Fantasy"},
+            "publisher": {"publisherName": "Fantasy Publishers"},
+            "language": {"language_name": "English"},
+            "bookEvent": {"event_name": "Book Fair", "event_date": "2010-07-10"},
+            "series": {"series_name": "Fantasy Series"},
+            "authors": [2]
+        },
+        {
+            "_id": 4,
+            "name": "Detective Stories",
+            "year_published": 2015,
+            "ISBN": "6677889900",
+            "pageCount": 320,
+            "format": "Audiobook",
+            "edition": "3rd",
+            "publication_date": "2015-09-20",
+            "weight": 0.3,
+            "genre": {"genre_name": "Detective"},
+            "publisher": {"publisherName": "Detective Publishers"},
+            "language": {"language_name": "English"},
+            "bookEvent": {"event_name": "Reading Event", "event_date": "2015-09-25"},
+            "series": {"series_name": "Detective Series"},
+            "authors": [3]
+        }
+    ]
+}

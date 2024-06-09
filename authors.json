@@ -1,0 +1,35 @@
+{
+    "collection": "authors",
+    "documents": [
+        {
+            "_id": 1,
+            "first_name": "John",
+            "last_name": "Doe",
+            "nationality": "American",
+            "biography": "An author known for his thrilling novels.",
+            "website": "http://johndoe.com",
+            "birth_date": "1970-01-01",
+            "books": [1, 2]
+        },
+        {
+            "_id": 2,
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "nationality": "British",
+            "biography": "A British author famous for her fantasy series.",
+            "website": "http://janesmith.com",
+            "birth_date": "1980-02-01",
+            "books": [3]
+        },
+        {
+            "_id": 3,
+            "first_name": "Emily",
+            "last_name": "Clark",
+            "nationality": "Canadian",
+            "biography": "A Canadian author who writes mystery novels.",
+            "website": "http://emilyclark.com",
+            "birth_date": "1990-03-01",
+            "books": [4]
+        }
+    ]
+}
