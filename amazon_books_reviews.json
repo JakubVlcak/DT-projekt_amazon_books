@@ -1,0 +1,276 @@
+[
+    {
+      "_id": {
+        "$oid": "77587d179c7db5f2ba36151c"
+      },
+      "user_rating": "4.5",
+      "review_text": "Transformative read.",
+      "review_date": "2024-06-15",
+      "users": [
+        {
+          "first_name": "John",
+          "last_name": "Doe",
+          "birth_date": {
+            "$date": "1975-03-15T00:00:00.000Z"
+          },
+          "gender": "Male",
+          "age": 49,
+          "email": "johndoe@example.com",
+          "address": {
+            "street": "456 Main Street",
+            "postal_code": "67890",
+            "city": "Metropolis",
+            "country": "Wonderland"
+          }
+        }
+      ],
+      "books": [
+        {
+          "name": "Journey of Inspirational Tales",
+          "ISBN": "987654321",
+          "format": "Hardcover",
+          "edition": "2",
+          "weight": 1.1,
+          "year_published": 2023,
+          "page_count": 400,
+          "publication_date": {
+            "$date": "2023-02-10T00:00:00.000Z"
+          },
+          "author": {
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "nationality": "Canadian",
+            "biography": "Jane Smith is a renowned author known for her captivating stories.",
+            "website": "janesmith.com",
+            "birth_date": {
+              "$date": "1980-12-20T00:00:00.000Z"
+            }
+          },
+          "events": [
+            {
+              "event_name": "Book Discussion",
+              "description": "An engaging discussion about the book.",
+              "event_date": {
+                "$date": "2023-03-15T00:00:00.000Z"
+              }
+            }
+          ],
+          "awards": [
+            {
+              "award_name": "Outstanding Fiction",
+              "award_year": 2023,
+              "award_date": {
+                "$date": "2023-06-01T00:00:00.000Z"
+              },
+              "organization_name": "Global Book Awards"
+            }
+          ],
+          "genres": [
+            {
+              "genre_name": "Drama",
+              "description": "A genre focused on dramatic narratives."
+            }
+          ],
+          "languages": [
+            {
+              "language_name": "Spanish"
+            }
+          ],
+          "publisher": {
+            "publisher_name": "Inspiring Reads",
+            "founder": "Inspiring Founder",
+            "website": "inspiringreads.com",
+            "address": {
+              "street": "789 Publisher Lane",
+              "postal_code": "54321",
+              "city": "Booksville",
+              "country": "USA"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "7758807c9c7db5f2ba36151d"
+      },
+      "user_rating": "4.0",
+      "review_text": "A compelling and engaging book.",
+      "review_date": "2024-06-20",
+      "users": [
+        {
+          "first_name": "Alice",
+          "last_name": "Johnson",
+          "birth_date": {
+            "$date": "1990-08-25T00:00:00.000Z"
+          },
+          "gender": "Female",
+          "age": 33,
+          "email": "alice.johnson@example.com",
+          "address": {
+            "street": "321 Book Avenue",
+            "postal_code": "44556",
+            "city": "Literature City",
+            "country": "Storyland"
+          }
+        }
+      ],
+      "books": [
+        {
+          "name": "The Ultimate Reader's Experience",
+          "ISBN": "5647382910",
+          "format": "Paperback",
+          "edition": "1",
+          "weight": 0.5,
+          "year_published": 2021,
+          "page_count": 350,
+          "publication_date": {
+            "$date": "2021-11-05T00:00:00.000Z"
+          },
+          "author": {
+            "first_name": "Mark",
+            "last_name": "Williams",
+            "nationality": "British",
+            "biography": "Mark Williams is a celebrated author in the literary world.",
+            "website": "markwilliamsbooks.com",
+            "birth_date": {
+              "$date": "1982-05-18T00:00:00.000Z"
+            }
+          },
+          "events": [
+            {
+              "event_name": "Meet the Author",
+              "description": "An opportunity to meet Mark Williams.",
+              "event_date": {
+                "$date": "2021-12-10T00:00:00.000Z"
+              }
+            }
+          ],
+          "awards": [
+            {
+              "award_name": "Best Reader's Choice",
+              "award_year": 2022,
+              "award_date": {
+                "$date": "2022-01-15T00:00:00.000Z"
+              },
+              "organization_name": "Reader's Awards"
+            }
+          ],
+          "genres": [
+            {
+              "genre_name": "Adventure",
+              "description": "A genre full of exciting and thrilling narratives."
+            }
+          ],
+          "languages": [
+            {
+              "language_name": "French"
+            }
+          ],
+          "publisher": {
+            "publisher_name": "Adventure Press",
+            "founder": "Adventurous Founder",
+            "website": "adventurepress.com",
+            "address": {
+              "street": "654 Adventure Road",
+              "postal_code": "98765",
+              "city": "Excitement Town",
+              "country": "Adventureland"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "775881859c7db5f2ba36151e"
+      },
+      "user_rating": "2.0",
+      "review_text": "Not up to the mark.",
+      "review_date": "2024-06-25",
+      "users": [
+        {
+          "first_name": "Bob",
+          "last_name": "Anderson",
+          "birth_date": {
+            "$date": "1988-02-20T00:00:00.000Z"
+          },
+          "gender": "Male",
+          "age": 36,
+          "email": "bob.anderson@example.com",
+          "address": {
+            "street": "12 Elm Street",
+            "postal_code": "11223",
+            "city": "Bookland",
+            "country": "Reviewland"
+          }
+        }
+      ],
+      "books": [
+        {
+          "name": "How Not to Write a Book",
+          "ISBN": "123498765",
+          "format": "Ebook",
+          "edition": "3",
+          "weight": 0,
+          "year_published": 2020,
+          "page_count": 310,
+          "publication_date": {
+            "$date": "2020-10-10T00:00:00.000Z"
+          },
+          "author": {
+            "first_name": "Emma",
+            "last_name": "Brown",
+            "nationality": "Australian",
+            "biography": "Emma Brown is an author known for her unconventional writing.",
+            "website": "emmabrownauthor.com",
+            "birth_date": {
+              "$date": "1985-04-10T00:00:00.000Z"
+            }
+          },
+          "events": [
+            {
+              "event_name": "Online Book Discussion",
+              "description": "Discuss the book with Emma Brown.",
+              "event_date": {
+                "$date": "2020-11-15T00:00:00.000Z"
+              }
+            }
+          ],
+          "awards": [
+            {
+              "award_name": "Worst Book Award",
+              "award_year": 2021,
+              "award_date": {
+                "$date": "2021-02-20T00:00:00.000Z"
+              },
+              "organization_name": "Book Awards Committee"
+            }
+          ],
+          "genres": [
+            {
+              "genre_name": "Satire",
+              "description": "Books that use humor to criticize or mock."
+            }
+          ],
+          "languages": [
+            {
+              "language_name": "German"
+            }
+          ],
+          "publisher": {
+            "publisher_name": "Unique Books",
+            "founder": "Unique Founder",
+            "website": "uniquebooks.com",
+            "address": {
+              "street": "99 Unique Lane",
+              "postal_code": "22445",
+              "city": "Unique City",
+              "country": "Creativeland"
+            }
+          }
+        }
+      ]
+    }
+  ]
+  
